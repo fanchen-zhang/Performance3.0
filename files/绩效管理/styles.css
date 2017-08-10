@@ -1003,7 +1003,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Calibri Bold', 'Calibri';
+  font-family:'Calibri Bold', 'Calibri Regular', 'Calibri';
   font-weight:700;
   font-style:normal;
   font-size:13px;
@@ -1016,7 +1016,7 @@
   top:10px;
   width:8px;
   height:16px;
-  font-family:'Calibri Bold', 'Calibri';
+  font-family:'Calibri Bold', 'Calibri Regular', 'Calibri';
   font-weight:700;
   font-style:normal;
   font-size:13px;
@@ -22208,7 +22208,7 @@
   position:absolute;
   left:289px;
   top:66px;
-  width:941px;
+  width:851px;
   height:29px;
   overflow:hidden;
 }
@@ -22217,7 +22217,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:941px;
+  width:851px;
   height:29px;
   -ms-overflow-x:hidden;
   overflow-x:hidden;
@@ -22307,7 +22307,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:941px;
+  width:851px;
   height:29px;
   visibility:hidden;
   -ms-overflow-x:hidden;
@@ -22609,7 +22609,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:941px;
+  width:851px;
   height:29px;
   visibility:hidden;
   -ms-overflow-x:hidden;
@@ -22977,7 +22977,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:941px;
+  width:851px;
   height:29px;
   visibility:hidden;
   -ms-overflow-x:hidden;
@@ -24531,5 +24531,47 @@
   top:-6px;
   width:1px;
   visibility:hidden;
+  word-wrap:break-word;
+}
+#u1632_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:80px;
+  height:29px;
+  background:inherit;
+  background-color:rgba(52, 156, 251, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(52, 156, 251, 1);
+  border-radius:2px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'微软雅黑 Regular', '微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  color:#FFFFFF;
+}
+#u1632 {
+  border-width:0px;
+  position:absolute;
+  left:1150px;
+  top:65px;
+  width:80px;
+  height:29px;
+  font-family:'微软雅黑 Regular', '微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  color:#FFFFFF;
+}
+#u1633 {
+  border-width:0px;
+  position:absolute;
+  left:2px;
+  top:6px;
+  width:76px;
   word-wrap:break-word;
 }
