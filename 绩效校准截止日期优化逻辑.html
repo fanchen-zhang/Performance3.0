@@ -25,37 +25,37 @@
     <div id="base" class="">
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u6642" class="ax_default box_1">
-        <div id="u6642_div" class=""></div>
+      <div id="u9941" class="ax_default box_1">
+        <div id="u9941_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u6643" class="text">
+        <div id="u9942" class="text">
           <p style="font-size:24px;"><span>主管考核截止日期优化逻辑</span></p><p style="font-size:16px;"><span>——考核过程中，绩效校准截止日期的优化方案</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u6644" class="ax_default box_1">
-        <div id="u6644_div" class=""></div>
+      <div id="u9943" class="ax_default box_1">
+        <div id="u9943_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u6645" class="text">
+        <div id="u9944" class="text">
           <p style="font-size:24px;"><span>需求背景</span></p><p style="font-size:13px;"><span>- 当前考核过程中，所有主管的正态分布截止日期为同一天，导致高层级主管没有足够的时间进行数据调整</span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span><br></span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u6646" class="ax_default box_1">
-        <div id="u6646_div" class=""></div>
+      <div id="u9945" class="ax_default box_1">
+        <div id="u9945_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u6647" class="text">
+        <div id="u9946" class="text">
           <p style="font-size:24px;"><span>设计初衷</span></p><p style="font-size:13px;"><span>- 各层级主管的校准截止日期能差异化显示</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u6648" class="ax_default box_1">
-        <div id="u6648_div" class=""></div>
+      <div id="u9947" class="ax_default box_1">
+        <div id="u9947_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u6649" class="text">
+        <div id="u9948" class="text">
           <p style="font-size:24px;"><span>逻辑算法</span></p><p style="font-size:13px;"><span>描述：按汇报链的节点总数平均划分校准截止日期与自评截止日期的时间差（记为AVT），从顶节点开始依次向下递减</span></p><p style="font-size:13px;"><span>（举例：汇报线A--B--C--D，A为顶节点，自评截止日期为20170701校准截止日期为20170704，则A，B，C，D主管的截止日期分别为，20170704，20170704，20170703，20170702）</span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span>注意：</span></p><p style="font-size:13px;"><span>1.若校准截止日期-自评截止日期&lt;=1，则各节点主管考核截止日期 = 校准截止日期</span></p><p style="font-size:13px;"><span>2.若校准截止日期-自评截止日期 &gt;1，则顶节点主管考核截止日期 = 校准截止日期，末子节点主管考核截止日期 = 自评截止日期+1，其他各级节点自上而下依次递减AVT（取当天值作为该级主管考核截止日期）</span></p>
         </div>
       </div>
